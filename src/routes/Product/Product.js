@@ -1,6 +1,6 @@
 const Product = () => {
     return (
-        <div style={{paddingTop: "56px"}}>
+        <div className="bg-light" style={{paddingTop: "56px"}}>
             Product
         </div>
     )

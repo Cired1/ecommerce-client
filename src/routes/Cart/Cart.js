@@ -4,7 +4,7 @@ import PayCard from "../../components/PayCard/PayCard";
 
 const Cart = () => {
   return (
-    <div style={{ paddingTop: "56px" }}>
+    <div className="bg-light page">
       <div className="container-lg py-5">
         <div className="d-flex flex-wrap gap-3">
           <div className="central-column">

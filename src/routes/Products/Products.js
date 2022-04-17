@@ -3,7 +3,7 @@ import ProductCard from "../../components/ProductCard/ProductCard";
 
 const Products = () => {
     return (
-        <div style={{ paddingTop: "56px" }}>
+        <div className="bg-light page">
             <div className="container-lg py-5">
                 <div className="d-flex flex-wrap gap-3">
                     <aside className="aside-column">
