@@ -10,19 +10,13 @@ const CartItem = () => {
                         <img
                             src="https://placeimg.com/300/300/any"
                             alt="product 1"
-                            className="rounded"
+                            className="rounded cart-image"
                         />
                     </div>
-                    <figcaption className="info">
+                    <figcaption>
                         <Link to="/product" className="text-dark">
                             Tshirt with round neck
                         </Link>
-                        <p className="text-muted mb-1">
-                            SIZE: L
-                        </p>
-                        <p className="text-muted">
-                            Brand: MAXTRA
-                        </p>
                     </figcaption>
                 </figure>
             </td>
@@ -37,7 +31,7 @@ const CartItem = () => {
             </td>
             <td>
                 <button className="btn btn-danger d-flex align-items-center gap-2">
-                    Remove
+                    <span className="remove-text">Remove</span>
                     <FaTrashAlt />
                 </button>
             </td>

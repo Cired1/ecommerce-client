@@ -6,10 +6,10 @@ const Products = () => {
         <div style={{ paddingTop: "56px" }}>
             <div className="container-lg py-5">
                 <div className="d-flex flex-wrap gap-3">
-                    <aside className="products-filter">
+                    <aside className="aside-column">
                         <Filters />
                     </aside>
-                    <div className="products-cards">
+                    <div className="central-column">
                         <ProductCard />
                         <ProductCard />
                         <ProductCard />

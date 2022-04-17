@@ -6,8 +6,8 @@ const Cart = () => {
   return (
     <div style={{ paddingTop: "56px" }}>
       <div className="container-lg py-5">
-        <div className="row">
-          <div className="col-9">
+        <div className="d-flex flex-wrap gap-3">
+          <div className="central-column">
             <div className="card shadow">
               <div className="table-responsive">
                 <table className="table table-borderless">
@@ -28,7 +28,7 @@ const Cart = () => {
               </div>
             </div>
           </div>
-          <aside className="col-3">
+          <aside className="aside-column">
             <Coupon />
             <PayCard />
           </aside>

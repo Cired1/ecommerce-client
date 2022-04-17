@@ -18,21 +18,43 @@ li {
   color: #0d6efd;
 }
 
-/* Products page */
+/* Products page & Cart page layouts*/
 
-.products-filter {
+.aside-column {
   width: 100%;
 }
 
-.products-cards {
+.central-column {
   width: 100%;
+}
+
+/* Cart Item image */
+
+.cart-image {
+  width: 60px;
+}
+
+/* Remove button */
+
+.remove-text {
+  display: none;
+}
+
+@media screen and (min-width: 480px) {
+  .cart-image {
+    width: 100px;
+  }
+
+  .remove-text {
+    display: inline;
+  }
 }
 
 @media screen and (min-width: 700px) {
-  .products-filter {
+  .aside-column {
     width: 32%
   }
-  .products-cards {
+  .central-column {
     width: 65%;
   }
 }
