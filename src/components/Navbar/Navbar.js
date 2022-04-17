@@ -15,7 +15,7 @@ const Navbar = () => {
     }
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-scroll fixed-top bg-primary">
+        <nav className="navbar navbar-expand-lg navbar-scroll fixed-top bg-primary bg-gradient">
             <div className="container-fluid" style={{ maxWidth: "1200px" }}>
                 <Link to="/" className="navbar-brand text-light">
                     ShoppingMx
@@ -57,14 +57,22 @@ const Navbar = () => {
                             </Link>
                         </li>
                     </ul>
-                    <ul className="navbar-nav d-flex flex-row">
+                    <ul className="navbar-nav d-flex flex-row gap-2">
                         <li className="nav-item me-3 me-lg-0">
                             <Link
                                 to="/cart"
-                                className="nav-link text-light"
+                                className="nav-link text-light fw-bold"
                                 onClick={closeNavbar}
                             >
                                 <FaShoppingCart />
+                            </Link>
+                        </li>
+                        <li className="nav-item me-3 me-lg-0">
+                            <Link
+                                to="/login"
+                                className="nav-link text-light fw-bold"
+                            >
+                                Login
                             </Link>
                         </li>
                     </ul>
