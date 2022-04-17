@@ -7,7 +7,7 @@ const Filters = () => {
     const [showPrice, setShowPrice] = useState(true);
 
     return (
-        <div className="card">
+        <div className="card shadow">
             <article className="filter-group">
                 <header className="card-header bg-primary bg-gradient text-light" style={{ cursor: "pointer" }}>
                     <div

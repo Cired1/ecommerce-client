@@ -5,11 +5,11 @@ const ProductCard = () => {
     return (
         <div className="row mb-3">
             <div className="col-12">
-                <div className="card shadow-0 border rounded-3">
+                <div className="card shadow border rounded-3">
                     <div className="card-body">
                         <div className="row">
                             <div className="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-                                <div className="bg-image hover-zoom ripple rounded ripple-surface">
+                                <div className="bg-image rounded">
                                     <img
                                         src="https://placeimg.com/640/480/any"
                                         alt="product 1"
