@@ -15,14 +15,6 @@ const ProductCard = () => {
                                         alt="product 1"
                                         className="w-100 rounded"
                                     />
-                                    <a href="#!" className="olakase">
-                                        <div className="hover-overlay">
-                                            <div
-                                                className="mask"
-                                                style={{ backgroundColor: "rgba(253, 253, 253, 0.15)" }}
-                                            ></div>
-                                        </div>
-                                    </a>
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-6 col-xl-6">
