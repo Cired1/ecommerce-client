@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import Banner from "../../components/Banner/Banner";
 import BestSellerCard from "../../components/BestSellerCard/BestSellerCard";
 import CategoryCard from "../../components/CategoryCard/CategoryCard";
 import SubFooter from "../../components/SubFooter/SubFooter";
@@ -5,6 +7,7 @@ import SubFooter from "../../components/SubFooter/SubFooter";
 const Home = () => {
   return (
     <div className="bg-light page">
+      <Banner />
       <div className="container-lg py-3">
         <div className="container py-4">
           <h4 className="mb-4 fw-bold text-muted">Bestsellers</h4>
